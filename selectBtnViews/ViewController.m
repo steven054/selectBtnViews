@@ -27,7 +27,7 @@
     [self.view addSubview:vies];
     selectNavbtnIndex=0;
 
-    self.sectionBtn = [QJSselectBtnViews finacesNavButtonViewWithTitleArray:@[@"仟金所项目1",@"仟金所项目2",@"仟金所项目3",@"仟金所项目4",@"仟金所项目5",@"仟金所项目6",@"仟金所项目7",@"仟金所项目8",@"仟金所项目9"] andSelectedIndex:selectNavbtnIndex];
+    self.sectionBtn = [QJSselectBtnViews finacesNavButtonViewWithTitleArray:@[@"项目1",@"项目2",@"项目3",@"项目4",@"项目5",@"项目6",@"项目7",@"项目8",@"项目9"] andSelectedIndex:selectNavbtnIndex];
     self.sectionBtn.backgroundColor = [UIColor colorWithRed:0.91f green:0.91f blue:0.91f alpha:1.00f];
     self.sectionBtn.frame=CGRectMake(0, 0, self.view.frame.size.width, 100);
     self.sectionBtn.delegate = self;
